@@ -2,10 +2,53 @@
   margin: 0;
   padding: 0;
   content: border-box;
+}
+
+/* COLORS USED*/
+:root {
+  --color-primary: #191d2b;
+  --color-secondary: #e0ba4f;
+  --color-hover: #e3c285;
+  --color-white: #ffffff;
+  --color-black: #000;
+  --color-grey0: #f8f8f8;
+  --color-grey-1: #dbe1e8;
+  --color-grey-2: #b2becd;
+  --color-grey-3: #6c7983;
+  --color-grey-4: #454e56;
+  --color-grey-5: #2a2e35;
+  --color-grey-6: #12181b;
+  --br-sm-2: 0.875rem;
+  --box-shadow-1: 0 0.1875rem 0.9375rem rgba(0, 0, 0, 0.3);
+}
+.light-mode {
+  --color-primary: #f7fbf3;
+  --color-secondary: #6685f5;
+  --color-hover: #3f68fe;
+  --color-white: #454e56;
+  --color-black: #000;
+  --color-grey0: #f8f8f8;
+  --color-grey-1: #6c7983;
+  --color-grey-2: #6c7983;
+  --color-grey-3: #6c7983;
+  --color-grey-4: #454e56;
+  --color-grey-5: #f2eaea;
+  --color-grey-6: #12181b;
+}
+
+body {
   background-color: red;
 }
-/* HEADER */
 
+/* HEADER */
+.header {
+  background-color: aqua;
+}
+.header .menu-bar {
+  color: azure;
+  position: sticky;
+  padding: 1rem;
+}
 /* MENU BAR LINKS  */
 
 /* DARK-MODE */
@@ -15,9 +58,21 @@
 /* FEATURES */
 
 /* FOOTER */
+footer {
+  background-color: green;
+  padding: 2rem;
+}
 
 /* FOOTER LINKS */
 
 /* SOCIALS */
+
+/*  HR TAG AND COPYRIGHT*/
+hr {
+  margin: 1rem 0rem;
+}
+.copyright {
+  margin-left: 41%;
+}
 
 /* BACK TO TOP */
